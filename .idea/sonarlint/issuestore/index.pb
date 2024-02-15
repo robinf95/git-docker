@@ -15,3 +15,5 @@ B
 Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 >
 Dockerfile.dev,5\0\5097cd467d1a52423d6921e6ce2f907ddec2e81c
+;
+.travis.yml,d\e\dea01dd89a3b602828e630677fde5d77c06441c8
