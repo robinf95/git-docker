@@ -2,18 +2,7 @@ version: '3'
 services:
   web:
     build:
-      context: . #specyfing where files/folders pulled from
-      dockerfile: Dockerfile.dev
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-    volumes:
-      - /app/node_modules
-      - .:/app # outside : inside
-  tests:
-    build:
-      context: . #specyfing where files/folders pulled from
-      dockerfile: Dockerfile.dev
-    volumes:
-      - /app/node_modules
-      - .:/app # outside : inside
-    command: ["npm", "run", "test"]
+      - '80:80'
